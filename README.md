@@ -1,13 +1,16 @@
 
-<div align="center">
-  <h3 align="center">Javascript URL Slug Generate</h3>
-  <p align="center">
+<div align="">
+  <h3 align="">Javascript URL Slug Generate</h3>
+  <p align="">
     Create Clean Slug from String.
   </p>
 </div>
 
 
 ```javascript
+
+// Convert "Hello World! How Are You?" => "/hello-world-how-are-you/"
+
 function permalink(val) {
 
     var accepted_letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "r", "s", "t", "u", "v", "y", "x", "w", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "-"];
